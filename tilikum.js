@@ -1,12 +1,11 @@
 const Discord = require('discord.js');
 const bot= new Discord.Client();
+//const token = require('./tokens.js');
 
 bot.once('ready', () => {
     console.log('Ready!');
-    //const channel = bot.channels.cache.get('115575007391907849');
-    //const rund = bot.user.fetch('277290868552105985');
-    //channel.send('HAPPPPPPPPPPPPPPPPY BIRTHDAY!!! ' + '<@277290868552105985>');
-    //console.log(rund)
+    //const channel = bot.channels.cache.get('632398444128108548');
+    //channel.send('Hola Socko! ' + '<@273293656268734477>' + '<@282969880590942209>');
 });
 bot.on('message', msg => {
     if (msg.channel.id === '641706295577018376') {
@@ -17,5 +16,5 @@ bot.on('message', msg => {
     }
     }
 });
-
+//bot.login(token);
 bot.login(process.env.botToken);
