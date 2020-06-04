@@ -1,0 +1,23 @@
+{
+  "name": "tilikum",
+  "version": "1.0.0",
+  "main": "tilikum.js",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kupshah/Tilikum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kupshah/Tilikum/issues"
+  },
+  "homepage": "https://github.com/kupshah/Tilikum#readme",
+  "description": ""
+}
