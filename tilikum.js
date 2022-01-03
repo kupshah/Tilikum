@@ -4,7 +4,6 @@ const bot= new Discord.Client();
 
 bot.once('ready', () => {
     console.log('Ready!');
-    console.log('Ready2')
     const message = bot.channels.cache.get("564834313825288242").messages.fetch("753655254645735494");
   /*  const channel = bot.channels.cache.get("269902718565351424");
     console.log(channel)
