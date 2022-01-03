@@ -5,7 +5,17 @@ const bot= new Discord.Client();
 bot.once('ready', () => {
     console.log('Ready!');
     const message = bot.channels.cache.get("564834313825288242").messages.fetch("753655254645735494");
+    const channel = bot.channels.cache.get("269902718565351424");
+    if (!channel) return console.error("The channel does not exist!");
+    channel.join().then(connection => {
+        // Yay, it worked!
+        console.log("Successfully connected.");
+    }).catch(e => {
+        // Oh no, it errored! Let's log it to console :)
+        console.error(e);
+    });
 });
+
 bot.on('message', msg => {
     if (msg.channel.id === '641706295577018376') {
         if (msg.attachments.size == 0) {
@@ -16,6 +26,7 @@ bot.on('message', msg => {
     }
 });
 
+// add role when user reacts to message
 bot.on("messageReactionAdd", function(messageReaction, user){
 
     if (messageReaction.message.id == "753655254645735494") {
@@ -62,6 +73,7 @@ bot.on("messageReactionAdd", function(messageReaction, user){
         }
 });
 
+// remove role when user removes reaction
 bot.on("messageReactionRemove", function(messageReaction, user){
     if (messageReaction.message.id == "753655254645735494") {
         let emoji = messageReaction.emoji.name;
@@ -109,4 +121,4 @@ bot.on("messageReactionRemove", function(messageReaction, user){
 
 
 //bot.login(token);
-bot.login(process.env.botToken);
+bot.login("NzE3NTIxOTg2NzI5MDE3Mzc0.XtbibA.6nIR4C0603nI4fZ15ptMT-fuZNA");
