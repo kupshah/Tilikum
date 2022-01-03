@@ -6,7 +6,8 @@ bot.once('ready', () => {
     console.log('Ready!');
     console.log('Ready2')
     const message = bot.channels.cache.get("564834313825288242").messages.fetch("753655254645735494");
-    const channel = bot.channels.cache.get("269902718565351424");
+  /*  const channel = bot.channels.cache.get("269902718565351424");
+    console.log(channel)
     if (!channel) return console.error("The channel does not exist!");
     channel.join().then(connection => {
         // Yay, it worked!
@@ -14,11 +15,12 @@ bot.once('ready', () => {
     }).catch(e => {
         // Oh no, it errored! Let's log it to console :)
         console.error(e);
-    });
+    });*/
 });
 
 bot.on('message', msg => {
     if (msg.channel.id === '641706295577018376') {
+        console.log('deleting message')
         if (msg.attachments.size == 0) {
             msg.delete({ timeout: 500 })
                 .then(msg => console.log(`Deleted message from ${msg.author.username} after .5 seconds`))

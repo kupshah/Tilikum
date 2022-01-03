@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f001515b-7c8b-48f1-a63c-6d6930fb4cc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tilikum.js" beforeDir="false" afterPath="$PROJECT_DIR$/tilikum.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="Node.js.tilikum.js">
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -38,8 +39,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.tilikum.js" />
+        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -54,7 +55,7 @@
       <workItem from="1618353133889" duration="443000" />
       <workItem from="1618417016456" duration="15000" />
       <workItem from="1631462688937" duration="5314000" />
-      <workItem from="1641249934292" duration="54000" />
+      <workItem from="1641249934292" duration="707000" />
     </task>
     <servers />
   </component>
@@ -62,21 +63,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1631571276580">
+    <state width="2522" height="395" key="GridCell.Tab.0.bottom" timestamp="1641250473827">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1631571276580" />
-    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1631571276579">
+    <state width="2522" height="395" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1641250473827" />
+    <state width="2522" height="395" key="GridCell.Tab.0.center" timestamp="1641250473827">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1631571276579" />
-    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1631571276579">
+    <state width="2522" height="395" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1641250473827" />
+    <state width="2522" height="395" key="GridCell.Tab.0.left" timestamp="1641250473827">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1631571276579" />
-    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1631571276579">
+    <state width="2522" height="395" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1641250473827" />
+    <state width="2522" height="395" key="GridCell.Tab.0.right" timestamp="1641250473827">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1631571276579" />
+    <state width="2522" height="395" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1641250473827" />
   </component>
 </project>
