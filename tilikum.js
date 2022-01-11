@@ -18,7 +18,7 @@ bot.once('ready', () => {
 });
 
 bot.on('message', msg => {
-    if (msg.channel.id === '641706295577018376') {
+    if (msg.channel.id === '641706295577018376' || msg.channel.id==='918424396853575702') {
         console.log('deleting message')
         if (msg.attachments.size == 0) {
             msg.delete({ timeout: 500 })
