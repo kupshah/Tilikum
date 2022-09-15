@@ -28,6 +28,12 @@ bot.on('message', msg => {
     }
 });
 
+bot.on("guildMemberAdd", member => {
+    console.log("new member join");
+    member.roles.add("407886666569744387").catch(console.error);
+});
+
+
 // add role when user reacts to message
 bot.on("messageReactionAdd", function(messageReaction, user){
 
