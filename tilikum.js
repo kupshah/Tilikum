@@ -30,6 +30,9 @@ bot.on('message', msg => {
 
 bot.on("guildMemberAdd", member => {
     console.log("new member join");
+    let channel = bot.channels.cache.get("416456015047950336");
+    channel.send(`Welcome <@${member.id}>, to the Divine Valor Server! Please read the #welcome channel for information and rules for our server/clan. \n
+    Applying members should fill out this survey: https://forms.gle/p59xtbgxxD5c2mWg9`);
     member.roles.add("407886666569744387").catch(console.error);
 });
 
