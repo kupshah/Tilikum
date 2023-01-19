@@ -132,4 +132,4 @@ bot.on("messageReactionRemove", function(messageReaction, user){
 
 
 //bot.login(token);
-bot.login("NzE3NTIxOTg2NzI5MDE3Mzc0.XtbibA.6nIR4C0603nI4fZ15ptMT-fuZNA");
+bot.login("NzE3NTIxOTg2NzI5MDE3Mzc0.GENATd.ZBxxLM6TXNHh7UsTjaSeRSWkN0DL590vO36c9w");
